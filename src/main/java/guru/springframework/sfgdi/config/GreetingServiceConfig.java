@@ -8,7 +8,7 @@ import guru.springframework.sfgdi.services.*;
 import org.springframework.context.annotation.*;
 
 // this is going to define different Beans
-@ImportResource("classpath: sfgdi-config.xml")
+@ImportResource("classpath:sfgdi-config.xml")
 @Configuration
 public class GreetingServiceConfig {
 
